@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .all{
+    width: 350px;
+    height: 400px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-image: url(public/feu.jpg);
+  }
+  
+  div{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  img{
+    width: 150px;
+    margin-left: 10px;
+  }
+  
+  .oo {  
+    height: 20px;
+    width: 70px;
+    background-color: lightblue;
+    border-radius: 5px;
+  }
+  
+  .dra{
+    height: 20px;
+    width: 120px;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .n{
+    margin-left: 10px;
+  }
+  
+  .draco{
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .type{
+    background-color: orangered;
+    margin-left: 10px;
+    width: 92%;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .pov{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10px;
+  }
+  
+  .vol{
+    padding-left: 5px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .feu{
+    padding-left: 5px;
+    width: 40px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  #description{
+    padding: 50px;
+    width: 350px;
+    height: 400px;
+    border: solid 1px black;
+    background-color: grey;
+    display: none;
+    border-radius: 10px;
+  }
+  
+  h1{
+    margin-bottom: 25px;
+  }
+  
+  #back{
+    margin-top: 50px;
+    margin-left: 80%;
+    cursor: pointer;
+  }
